@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/index"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="Congratulations, Kitty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-heavy"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:padding="20dp"/>
+
+    <TextView
+        android:text="Handsome Baby Boy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-heavy"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:padding="20dp"/>
+
+</RelativeLayout>
+
